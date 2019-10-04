@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FDCCECE233BFE8C005B86AA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDCCECD233BFE8C005B86AA /* LoginViewController.swift */; };
+		9FF603FE233B1FFA003E5B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF603FD233B1FFA003E5B2A /* AppDelegate.swift */; };
+		9FF60400233B1FFA003E5B2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF603FF233B1FFA003E5B2A /* SceneDelegate.swift */; };
+		9FF60405233B1FFA003E5B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF60403233B1FFA003E5B2A /* Main.storyboard */; };
+		9FF60408233B1FFA003E5B2A /* CrabflixPremium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FF60406233B1FFA003E5B2A /* CrabflixPremium.xcdatamodeld */; };
+		9FF6040A233B1FFA003E5B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF60409233B1FFA003E5B2A /* Assets.xcassets */; };
+		9FF6040D233B1FFA003E5B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF6040B233B1FFA003E5B2A /* LaunchScreen.storyboard */; };
+		9FF60415233B20DE003E5B2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FF60414233B20DE003E5B2A /* GoogleService-Info.plist */; };
+		9FF605C923428160000DBA1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF605C823428160000DBA1B /* DetailViewController.swift */; };
+		9FF68A99233C25EA00783458 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF68A98233C25EA00783458 /* ListaTableViewController.swift */; };
+		9FF68A9B233C262D00783458 /* PeliculasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF68A9A233C262D00783458 /* PeliculasTableViewCell.swift */; };
+		9FF6CC73233E40D200FFAF26 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6CC72233E40D200FFAF26 /* User.swift */; };
+		9FF7BF2B233C4DF8008B6FD1 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7BF2A233C4DF8008B6FD1 /* Film.swift */; };
+		9FF99844233CE82000C6B0C1 /* FilmDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF99843233CE82000C6B0C1 /* FilmDAO.swift */; };
+		9FF99846233CF30100C6B0C1 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF99845233CF30100C6B0C1 /* Trailer.swift */; };
+		9FF99848233CF5D400C6B0C1 /* FilmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF99847233CF5D400C6B0C1 /* FilmService.swift */; };
+		9FF9F1F42346E4EF003F6AFB /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9F1F32346E4EF003F6AFB /* FavoritesTableViewController.swift */; };
+		9FF9F1F62346E502003F6AFB /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9F1F52346E502003F6AFB /* FavoritesTableViewCell.swift */; };
+		9FF9F1F82346E646003F6AFB /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9F1F72346E646003F6AFB /* Serie.swift */; };
+		9FFD901123439B9000E25C4A /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFD901023439B9000E25C4A /* TrailerViewController.swift */; };
+		BF545FA5B53FE92090A21049 /* Pods_CrabflixPremium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AA929062C207C00EBC789E /* Pods_CrabflixPremium.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29AA929062C207C00EBC789E /* Pods_CrabflixPremium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrabflixPremium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61677B3E70FCB35EFD44D0E9 /* Pods-CrabflixPremium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrabflixPremium.release.xcconfig"; path = "Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium.release.xcconfig"; sourceTree = "<group>"; };
+		9FDCCECD233BFE8C005B86AA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FF603FA233B1FFA003E5B2A /* CrabflixPremium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrabflixPremium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF603FD233B1FFA003E5B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FF603FF233B1FFA003E5B2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9FF60404233B1FFA003E5B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FF60407233B1FFA003E5B2A /* CrabflixPremium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrabflixPremium.xcdatamodel; sourceTree = "<group>"; };
+		9FF60409233B1FFA003E5B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FF6040C233B1FFA003E5B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FF6040E233B1FFA003E5B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF60414233B20DE003E5B2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9FF605C823428160000DBA1B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9FF68A98233C25EA00783458 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		9FF68A9A233C262D00783458 /* PeliculasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeliculasTableViewCell.swift; sourceTree = "<group>"; };
+		9FF6CC72233E40D200FFAF26 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9FF7BF2A233C4DF8008B6FD1 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		9FF99843233CE82000C6B0C1 /* FilmDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDAO.swift; sourceTree = "<group>"; };
+		9FF99845233CF30100C6B0C1 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
+		9FF99847233CF5D400C6B0C1 /* FilmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmService.swift; sourceTree = "<group>"; };
+		9FF9F1F32346E4EF003F6AFB /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		9FF9F1F52346E502003F6AFB /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		9FF9F1F72346E646003F6AFB /* Serie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serie.swift; sourceTree = "<group>"; };
+		9FFD901023439B9000E25C4A /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		D5569439B545CEE297D695EF /* Pods-CrabflixPremium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrabflixPremium.debug.xcconfig"; path = "Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FF603F7233B1FFA003E5B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF545FA5B53FE92090A21049 /* Pods_CrabflixPremium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB7301F7D65D46F4ED73ABB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF60414233B20DE003E5B2A /* GoogleService-Info.plist */,
+				29AA929062C207C00EBC789E /* Pods_CrabflixPremium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FDCCEC6233BFD72005B86AA /* main */ = {
+			isa = PBXGroup;
+			children = (
+				9FF6040B233B1FFA003E5B2A /* LaunchScreen.storyboard */,
+				9FF60403233B1FFA003E5B2A /* Main.storyboard */,
+				9FF6040E233B1FFA003E5B2A /* Info.plist */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		9FDCCEC7233BFD76005B86AA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				9FF7BF2A233C4DF8008B6FD1 /* Film.swift */,
+				9FF99845233CF30100C6B0C1 /* Trailer.swift */,
+				9FF6CC72233E40D200FFAF26 /* User.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		9FDCCEC8233BFD7A005B86AA /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				9FF99843233CE82000C6B0C1 /* FilmDAO.swift */,
+			);
+			path = dao;
+			sourceTree = "<group>";
+		};
+		9FDCCEC9233BFD7E005B86AA /* service */ = {
+			isa = PBXGroup;
+			children = (
+				9FF99847233CF5D400C6B0C1 /* FilmService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		9FDCCECA233BFD82005B86AA /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9FDCCECB233BFD88005B86AA /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				9FF72746234689DE005282B8 /* Favorites */,
+				9FF68A97233C1D7A00783458 /* login */,
+				9FF68A96233C1D7500783458 /* series */,
+				9FF68A95233C1D6F00783458 /* movies */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		9FDCCECC233BFD96005B86AA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9FF60409233B1FFA003E5B2A /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		9FF603F1233B1FFA003E5B2A = {
+			isa = PBXGroup;
+			children = (
+				9FF603FC233B1FFA003E5B2A /* CrabflixPremium */,
+				9FF603FB233B1FFA003E5B2A /* Products */,
+				D1B66394DB29074531A2029E /* Pods */,
+				1DB7301F7D65D46F4ED73ABB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FF603FB233B1FFA003E5B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FF603FA233B1FFA003E5B2A /* CrabflixPremium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FF603FC233B1FFA003E5B2A /* CrabflixPremium */ = {
+			isa = PBXGroup;
+			children = (
+				9FDCCECC233BFD96005B86AA /* resources */,
+				9FDCCECB233BFD88005B86AA /* viewController */,
+				9FDCCECA233BFD82005B86AA /* view */,
+				9FDCCEC9233BFD7E005B86AA /* service */,
+				9FDCCEC8233BFD7A005B86AA /* dao */,
+				9FDCCEC7233BFD76005B86AA /* model */,
+				9FDCCEC6233BFD72005B86AA /* main */,
+				9FF603FD233B1FFA003E5B2A /* AppDelegate.swift */,
+				9FF603FF233B1FFA003E5B2A /* SceneDelegate.swift */,
+				9FF60406233B1FFA003E5B2A /* CrabflixPremium.xcdatamodeld */,
+			);
+			path = CrabflixPremium;
+			sourceTree = "<group>";
+		};
+		9FF68A95233C1D6F00783458 /* movies */ = {
+			isa = PBXGroup;
+			children = (
+				9FF68A98233C25EA00783458 /* ListaTableViewController.swift */,
+				9FF68A9A233C262D00783458 /* PeliculasTableViewCell.swift */,
+				9FF605C823428160000DBA1B /* DetailViewController.swift */,
+				9FFD901023439B9000E25C4A /* TrailerViewController.swift */,
+			);
+			path = movies;
+			sourceTree = "<group>";
+		};
+		9FF68A96233C1D7500783458 /* series */ = {
+			isa = PBXGroup;
+			children = (
+				9FF9F1F72346E646003F6AFB /* Serie.swift */,
+			);
+			path = series;
+			sourceTree = "<group>";
+		};
+		9FF68A97233C1D7A00783458 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9FDCCECD233BFE8C005B86AA /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		9FF72746234689DE005282B8 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				9FF9F1F32346E4EF003F6AFB /* FavoritesTableViewController.swift */,
+				9FF9F1F52346E502003F6AFB /* FavoritesTableViewCell.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		D1B66394DB29074531A2029E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5569439B545CEE297D695EF /* Pods-CrabflixPremium.debug.xcconfig */,
+				61677B3E70FCB35EFD44D0E9 /* Pods-CrabflixPremium.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FF603F9233B1FFA003E5B2A /* CrabflixPremium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF60411233B1FFA003E5B2A /* Build configuration list for PBXNativeTarget "CrabflixPremium" */;
+			buildPhases = (
+				38DBAA555F2A0DC2413373DF /* [CP] Check Pods Manifest.lock */,
+				9FF603F6233B1FFA003E5B2A /* Sources */,
+				9FF603F7233B1FFA003E5B2A /* Frameworks */,
+				9FF603F8233B1FFA003E5B2A /* Resources */,
+				0975E673EFE74C29A41E2C92 /* [CP] Embed Pods Frameworks */,
+				27E070F2A3BAFCA690D16BEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrabflixPremium;
+			productName = CrabflixPremium;
+			productReference = 9FF603FA233B1FFA003E5B2A /* CrabflixPremium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FF603F2233B1FFA003E5B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Luciana Ines Ezcurra";
+				TargetAttributes = {
+					9FF603F9233B1FFA003E5B2A = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 9FF603F5233B1FFA003E5B2A /* Build configuration list for PBXProject "CrabflixPremium" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FF603F1233B1FFA003E5B2A;
+			productRefGroup = 9FF603FB233B1FFA003E5B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FF603F9233B1FFA003E5B2A /* CrabflixPremium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FF603F8233B1FFA003E5B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF6040D233B1FFA003E5B2A /* LaunchScreen.storyboard in Resources */,
+				9FF60415233B20DE003E5B2A /* GoogleService-Info.plist in Resources */,
+				9FF6040A233B1FFA003E5B2A /* Assets.xcassets in Resources */,
+				9FF60405233B1FFA003E5B2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0975E673EFE74C29A41E2C92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27E070F2A3BAFCA690D16BEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrabflixPremium/Pods-CrabflixPremium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38DBAA555F2A0DC2413373DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrabflixPremium-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FF603F6233B1FFA003E5B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF605C923428160000DBA1B /* DetailViewController.swift in Sources */,
+				9FDCCECE233BFE8C005B86AA /* LoginViewController.swift in Sources */,
+				9FFD901123439B9000E25C4A /* TrailerViewController.swift in Sources */,
+				9FF9F1F42346E4EF003F6AFB /* FavoritesTableViewController.swift in Sources */,
+				9FF603FE233B1FFA003E5B2A /* AppDelegate.swift in Sources */,
+				9FF60408233B1FFA003E5B2A /* CrabflixPremium.xcdatamodeld in Sources */,
+				9FF60400233B1FFA003E5B2A /* SceneDelegate.swift in Sources */,
+				9FF99844233CE82000C6B0C1 /* FilmDAO.swift in Sources */,
+				9FF68A9B233C262D00783458 /* PeliculasTableViewCell.swift in Sources */,
+				9FF68A99233C25EA00783458 /* ListaTableViewController.swift in Sources */,
+				9FF99846233CF30100C6B0C1 /* Trailer.swift in Sources */,
+				9FF7BF2B233C4DF8008B6FD1 /* Film.swift in Sources */,
+				9FF9F1F62346E502003F6AFB /* FavoritesTableViewCell.swift in Sources */,
+				9FF99848233CF5D400C6B0C1 /* FilmService.swift in Sources */,
+				9FF6CC73233E40D200FFAF26 /* User.swift in Sources */,
+				9FF9F1F82346E646003F6AFB /* Serie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FF60403233B1FFA003E5B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF60404233B1FFA003E5B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FF6040B233B1FFA003E5B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF6040C233B1FFA003E5B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FF6040F233B1FFA003E5B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FF60410233B1FFA003E5B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FF60412233B1FFA003E5B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5569439B545CEE297D695EF /* Pods-CrabflixPremium.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGJ639FJF9;
+				INFOPLIST_FILE = "$(SRCROOT)/CrabflixPremium/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlantis.CrabflixPremium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FF60413233B1FFA003E5B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61677B3E70FCB35EFD44D0E9 /* Pods-CrabflixPremium.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TGJ639FJF9;
+				INFOPLIST_FILE = "$(SRCROOT)/CrabflixPremium/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.atlantis.CrabflixPremium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FF603F5233B1FFA003E5B2A /* Build configuration list for PBXProject "CrabflixPremium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF6040F233B1FFA003E5B2A /* Debug */,
+				9FF60410233B1FFA003E5B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF60411233B1FFA003E5B2A /* Build configuration list for PBXNativeTarget "CrabflixPremium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FF60412233B1FFA003E5B2A /* Debug */,
+				9FF60413233B1FFA003E5B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FF60406233B1FFA003E5B2A /* CrabflixPremium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FF60407233B1FFA003E5B2A /* CrabflixPremium.xcdatamodel */,
+			);
+			currentVersion = 9FF60407233B1FFA003E5B2A /* CrabflixPremium.xcdatamodel */;
+			path = CrabflixPremium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FF603F2233B1FFA003E5B2A /* Project object */;
+}
